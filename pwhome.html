@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PW WebPage Design Through Tailwind</title>
+    <link rel="stylesheet" href="/src/output.css">
+</head>
+<body class="bg-slate-950">
+    <nav class="w-full h-14 bg-indigo-200 flex justify-between px-4 md:px-4  items-center">
+        <div class="text-2xl text-indigo-700 font-bold">PW Skills</div>
+        <ul class="md:flex font-semibold hidden">
+            <li class="mx-[10px] cursor-pointer">Home</li>
+            <li class="mx-[10px] cursor-pointer">About Us</li>
+            <li class="mx-[10px] cursor-pointer"> Contact us</li>
+        </ul>
+        <div class="hidden md:block px-2 py-2 bg-indigo-700 text-white rounded font-bold cursor-pointer">
+        Login/SignUp</div>
+        <div class="md:hidden">
+            <a class="text-4xl" href="#">&#8801;</a>
+        </div>
+    </nav>
+    <header class="w-full h-auto">
+        <img class="w-full hidden md:block"src="https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&w=600">
+        <img class="w-full md:hidden"src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=600">
+    </header>
+    <div class="h-auto w-100 flex flex-wrap flex-col items-center text-center p-10">
+        <div class="w-full h-auto flex flex-wrap flex-col items-center">
+            <p class="text-indigo-800 font-bold text-3xl md:text-4xl text-center">"Pure Hardwork, No Shortcuts!</p>
+            <div class="w-48 h-1 border-b-4 border-yellow-500 mt-2 rounded-2xl md:mt-4 mb-12"></div>
+        </div>
+        <div class="w-full flex flex-wrap justify-evenly">
+            <div class="w-48 flex flex-col item-center mb-12">
+                <img class="w-44 h-44 rounded-full object-cover"src="https://images.pexels.com/photos/3345882/pexels-photo-3345882.jpeg?auto=compress&cs=tinysrgb&w=600">
+                <p class="text-3xl font-bold text-white">600+</p>
+                <p class="text-2xl font-bold text-gray-500">Different Courses</p>
+            </div>
+            <div class="w-48 flex flex-col item-center mb-12">
+                <img class="w-44 h-44 rounded-full object-cover"src="https://images.pexels.com/photos/267394/pexels-photo-267394.jpeg?auto=compress&cs=tinysrgb&w=600">
+                <p class="text-3xl font-bold text-white">70000+</p>
+                <p class="text-2xl font-bold text-gray-500">Student Enrolled</p>
+            </div>
+            <div class="w-48 flex flex-col item-center mb-12">
+                <img class="w-44 h-44 rounded-full object-cover"src="https://images.pexels.com/photos/3861964/pexels-photo-3861964.jpeg?auto=compress&cs=tinysrgb&w=600">
+                <p class="text-3xl font-bold text-white">10000+</p>
+                <p class="text-2xl font-bold text-gray-500">Sucessful Transition</p>
+            </div>
+        </div>
+    </div>
+    <div class="h-auto w-100 flex flex-wrap flex-col items-center text-center p-10">
+        <div class="w-full h-auto flex flex-wrap flex-col items-center">
+            <p class="text-indigo-800 font-bold text-3xl md:text-4xl text-center">Our Products</p>
+            <div class="w-48 h-1 border-b-4 border-yellow-500 mt-2 rounded-2xl md:mt-4 mb-12"></div>
+        </div>
+        <div class="w-[90%] h-auto flex flex-wrap justify-around  gap-10">
+            <div class="w-44  flex flex-col items-center mb-12 hover:border-2 hover: border-white  rounded-xl p-2">
+                <img class="w-44 h-44 rounded-full object-cover"src="https://images.pexels.com/photos/256381/pexels-photo-256381.jpeg?auto=compress&cs=tinysrgb&w=600">
+                <p class="text-xl font-bold text-white">PW Skills lab</p>
+                <p class="text-sm font-bold text-gray-500">Supercharge your <br>project development with <br> our robust lab.</p>
+            </div>
+            <div class="w-44 flex flex-col items-center mb-12 p-2 hover:border-2 hover: border-white rounded-xl">
+                <img class="w-44 h-44 rounded-full object-cover"src="https://images.pexels.com/photos/256381/pexels-photo-256381.jpeg?auto=compress&cs=tinysrgb&w=600">
+                <p class="text-xl font-bold text-white">Job Portal</p>
+                <p class="text-sm font-bold text-gray-500">Use Exceptional templates <br>for a stand-out resume minus<br> the sign up process.</p>
+            </div>
+            <div class="w-44 flex flex-col items-center mb-12 p-2 hover:border-2 hover: border-white rounded-xl">
+                <img class="w-44 h-44 rounded-full object-cover"src="https://images.pexels.com/photos/256381/pexels-photo-256381.jpeg?auto=compress&cs=tinysrgb&w=600">
+                <p class="text-xl font-bold text-white">Experiences Portal</p>
+                <p class="text-sm font-bold text-gray-500">PW Skills's self-paced <br>experience portal prioritises hands-on <br>training with 570+ intership projects.</p>
+            </div>
+            <div class="w-44 flex flex-col items-center mb-12 p-2 hover:border-2 hover: border-white rounded-xl">
+                <img class="w-44 h-44 rounded-full object-cover"src="https://images.pexels.com/photos/256381/pexels-photo-256381.jpeg?auto=compress&cs=tinysrgb&w=600">
+                <p class="text-xl font-bold text-white">Affiliate</p>
+                <p class="text-sm font-bold text-gray-500">Explore affiliate marketing<br> opportunities with PW skills and attain <br>financial freedom.</p>
+            </div>
+            <div class="w-44 flex flex-col items-center mb-12 p-2 hover:border-2 hover: border-white rounded-xl">
+                <img class="w-44 h-44 rounded-full object-cover"src="https://images.pexels.com/photos/256381/pexels-photo-256381.jpeg?auto=compress&cs=tinysrgb&w=600">
+                <p class="text-xl font-bold text-white">Hall of fame</p>
+                <p class="text-sm font-bold text-gray-500">Our students placements and <br>100k+ career transitions<br>speak volumes about our<br>courses.</p>
+            </div>
+        </div>    
+    </div>
+    <footer class="w-full bg-gray-900 px-4 text-white pt-8 flex flex-col md:flex-row flex-wrap justify-between md:px-12">
+        <div>
+            <img class="w-40 h-16 object-cover rounded" src="https://images.pexels.com/photos/4348403/pexels-photo-4348403.jpeg?auto=compress&cs=tinysrgb&w=600">
+            <p class="my-4">Email us:support@pwskills.com</p>
+            <img class="h-32 w-32 object-cover rounded-full" src="https://images.pexels.com/photos/1205651/pexels-photo-1205651.jpeg?auto=compress&cs=tinysrgb&w=600">
+        </div>
+        
+        <div>
+            <h4 class="font-bold text-lg mt-4 ">PW Skills</h4>
+            <div class="w-28 h-1 border-b-2 border-yellow-400"></div>
+            <div>
+                <p>About Us</p>
+                <p>FAQs</p>
+                <p>Privacy Policy</p>
+            </div>
+        </div>
+        <div>
+            <h4 class="font-bold text-lg mt-4">Products</h4>
+            <div class="w-28 h-1 border-b-2 border-yellow-400"></div>
+            <div>
+                <p>PW Skills lab</p>
+                <p>Job Portal</p>
+                <p>Experience Portal</p>
+                <p>Become an affiliate</p>
+                <p>Hall of fame</p>
+            </div>
+        </div>
+        <div>
+            <h4 class="font-bold text-lg mt-4">Links</h4>
+            <div class="w-28 h-1 border-b-2 border-yellow-400"></div>
+            <div>
+                <p>Discord Channel</p>
+                <p>PW Youtube</p>
+                <p>Carrer</p>   
+            </div>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
